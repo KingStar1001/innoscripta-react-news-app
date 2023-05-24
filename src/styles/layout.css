@@ -1,0 +1,48 @@
+body {
+  background: #f9f4ec !important;
+  height: 100vh;
+  color: #2a2a2a;
+}
+
+#root {
+  height: 100%;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.flex-direction-column {
+  flex-direction: row !important;
+}
+
+.is-primary-color {
+  color: #2a2a2a !important;
+}
+
+.highlight.bisque {
+  left: -480px;
+  bottom: -300px;
+  top: unset;
+  right: unset;
+}
+
+.highlight {
+  position: absolute;
+  top: -300px;
+  right: -400px;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  background-color: #f7000012;
+  filter: blur(100px);
+  z-index: -1;
+}
