@@ -9,9 +9,14 @@ export default function Login() {
 
   const submitForm = () => {
     // api call
-    http.post("/login", { email: email, password: password }).then((res) => {
-      setToken(res.data.user, res.data.access_token);
-    });
+    http
+      .post("/login", { email: email, password: password })
+      .then((res) => {
+        setToken(res.data.user, res.data.access_token);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
 
   return (
