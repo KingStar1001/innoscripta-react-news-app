@@ -6,7 +6,9 @@ Open terminal and run this command in terminal.
 ```
 git clone https://github.com/KingStar1001/innoscripta-react-news-app.git
 ```
-
+```
+cd innoscripta-react-news-app
+```
 ### 2. Build the environment
 Run this command in terminal.
 ```
